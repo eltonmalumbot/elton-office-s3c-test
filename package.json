@@ -1,0 +1,14 @@
+{
+  "name": "elton-office-s3c-test",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Harmless public CI playground for Orion S3C protected auto-merge testing",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/check-build.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
