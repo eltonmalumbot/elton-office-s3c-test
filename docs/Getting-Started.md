@@ -12,3 +12,7 @@ Changes for Orion S3C verification should be limited to this documentation file.
 ## CI smoke check
 
 This section is a harmless documentation-only change to confirm that the `Verify` GitHub Actions workflow also runs on pull requests. It does not enable automation or modify any production system.
+
+## Safe Rollback
+
+Automatic merge permissions can be revoked through Orion Repository Manager. Automatic merges remain subject to the approved CI-gated policy: a PR must not merge if the protected branch or required CI is missing.
